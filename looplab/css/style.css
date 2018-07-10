@@ -1,0 +1,50 @@
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+.main-navbar {
+    border-bottom: 3px solid #008ed6;
+    opacity:  0.8;
+}
+
+.right-signup {
+    background-color: #008ed6 ;
+    /*padding: 20px 15px;*/
+}
+
+#home-section {
+    background: url("../img/home.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+#home-section .dark-overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+#home-section .home-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.explore-inner, .share-inner {
+    /*background-color: white;*/
+    color: #000;
+}
+
+#explore-img, #share-img, #create-img {
+    width: 100%;
+}
+
+.create-header, .share-header {
+    /*background-color: deepskyblue;*/
+}
+
+.contact-modal {
+    color: #000;
+}
