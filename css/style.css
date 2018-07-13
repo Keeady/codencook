@@ -47,6 +47,11 @@ a.social-link {
     color: #007bff;
 }
 
+.list-group-item:hover {
+    opacity: 0.8;
+    background-color: #f7f4f4;
+}
+
 @media only screen and (max-width : 350px) {
     .name h1 {
         font-size: 1.2rem;
