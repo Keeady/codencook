@@ -9,19 +9,20 @@
           crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
           crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Bootstrap Theme</title>
+    <title>Camaria B. - Portfolio</title>
 </head>
 
 <body>
     <div class="container">
         <header>
             <div class="row no-gutters">
-                <div class="col-lg-4 col-xs-12">
+                <div class="col-lg-2 col-xs-12">
                     <img id="profile-img" src="img/profile.png" alt="smiling profile picture"/>
                 </div>
-                <div class="col-lg-8 col-xs-12 d-flex flex-column">
-                        <div class="navigation d-flex px-3 py-5 justify-content-between align-items-center bg-dark text-white">
+                <div class="col-lg-10 col-xs-12 d-flex flex-column">
+                        <div class="navigation d-flex px-3 py-1 justify-content-between align-items-center bg-dark text-white">
                                 <div class="name">
                                     <h1 class="display-4">Camaria Bevavy</h1>
                                 </div>
@@ -36,24 +37,24 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="job-title px-3 py-4 text-light">
+                        <div class="job-title px-3 py-1 text-light">
                             <h3>Experienced Software Developer</h3>
                         </div>
                         <div class="main-navs d-flex align-items-stretch text-white text-center">
-                                <div class="main-nav-item p-4 bg-primary" id="home-nav" data-toggle="collapse" data-target="#home">
-                                    <i class="fas fa-home fa-4x fa-inverse d-block"></i>
+                                <div class="main-nav-item p-3 bg-primary" id="home-nav" data-toggle="collapse" data-target="#home">
+                                    <i class="fas fa-home fa fa-inverse d-block"></i>
                                     <span class="link-caption text-light d-none">Home</span>
                                 </div>
-                                <div data-toggle="collapse" data-target="#resume" class="main-nav-item p-4 bg-success" id="academia-nav">
-                                    <i class="fas fa-graduation-cap fa-4x fa-inverse d-block"></i>
+                                <div data-toggle="collapse" data-target="#resume" class="main-nav-item p-3 bg-success" id="academia-nav">
+                                    <i class="fas fa-graduation-cap fa fa-inverse d-block"></i>
                                     <span class="text-light d-none">Resume</span>
                                 </div>
-                                <div data-toggle="collapse" data-target="#work" class="main-nav-item p-4 bg-warning" id="work-nav">
-                                    <i class="fas fa-folder-open fa-4x fa-inverse d-block"></i>
+                                <div data-toggle="collapse" data-target="#work" class="main-nav-item p-3 bg-warning" id="work-nav">
+                                    <i class="fas fa-folder-open fa fa-inverse d-block"></i>
                                     <span class="text-light d-none">Work</span>
                                 </div>
-                                <div data-toggle="collapse" data-target="#contact" class="main-nav-item p-4 bg-danger" id="contact-nav">
-                                    <i class="fas fa-comments fa-4x fa-inverse d-block"></i>
+                                <div data-toggle="collapse" data-target="#contact" class="main-nav-item p bg-danger" id="contact-nav">
+                                    <i class="fas fa-comments fa fa-inverse d-block"></i>
                                     <span class="text-light d-none">Contact</span>
                                 </div>
                         </div>
@@ -120,7 +121,7 @@
                 </div>
             </div>
             <div class="card card-body section-header py-5 resume bg-light text-dark">
-                <h2>Where Have I worked?</h2>
+                <h3>Where Have I worked?</h3>
                 <div class="card-deck">
                     <div class="card">
                         <div class="card-body">
@@ -164,9 +165,69 @@
             </div>
         </section>
         <section id="work" class="collapse">
-            <div class="section-header work bg-warning text-white">
-                <p>Work, Coming soon...</p>
+            <div class="card card-body section-header py-5 work bg-warning text-dark">
+                <p class="lead">
+                    I enjoy working on challenging projects either at my full-time job or on the side in the wee morning hours.
+                    As a software engineer, I enjoy bridging the gap between engineering and design — combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
+                </p>
             </div>
+
+            <div class="card card-body py-5">
+                <h3>What Have I been doing?</h3>
+                <p>As a software engineer, I enjoy bridging the gap between engineering and design — combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
+                </p>
+            </div>
+            <div class="card-deck">
+                <div class="card mb-3">
+                    <!--img class="card-img-top" src="img/flat_home.jpeg" alt="Card image cap"-->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img class="d-inline mobile-stack ml-3" src="img/mobile_form_text.jpeg?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+                                <img class="d-inline mobile-stack" src="img/mobile_form.jpeg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+                                <img class="d-inline mobile-stack" src="img/mobile_share2.jpeg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/flat_home.jpeg?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-inline w-100" src="img/flat_share.jpeg?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="http://codencook.herokuapp.com/looplab" target="_blank">LoopLab</a>
+                        </h5>
+                        <p class="card-text">A responsive website landing page with a social media theme, smooth scrolling, fixed headers.</p>
+                        <p class="card-text"><small class="text-muted"></small></p>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <section id="contact" class="collapse">
             <div class="section-header contact bg-danger text-white">
@@ -190,6 +251,7 @@
         crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 
 <script>
     // Get the current year for the copyright
@@ -215,7 +277,12 @@
 
     $('.main-nav-item').on('click', function () {
         $('.collapse').collapse('hide');
-    })
+    });
+
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+        event.preventDefault();
+        $(this).ekkoLightbox();
+    });
 </script>
 </body>
 
