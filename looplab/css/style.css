@@ -22,10 +22,11 @@ body {
     font-size: 30px;
 }
 
-
 .main-navbar {
     border-bottom: 3px solid #008ed6;
+    /*todo change opactity to 1 for small screens with collapsed menu*/
     opacity:  0.8;
+    /*todo put padding for small screens*/
     padding-top: 0;
     padding-bottom: 0;
 }
