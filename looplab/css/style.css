@@ -37,7 +37,7 @@ body {
 }
 
 #home-section {
-    background: url("../img/kids_run.png") no-repeat fixed;
+    background: url("../img/kids_run.png") no-repeat bottom;
     background-color: #bde9f2;
     -webkit-background-size: cover;
     background-size: cover;
